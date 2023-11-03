@@ -1,0 +1,71 @@
+.home-container{
+    background-image: linear-gradient(#e8ffe1, transparent);
+    margin: 0 auto;
+}
+.home-banner {
+    background-color: #d4fbc2;
+    padding:3% -12px 1% 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    
+
+}
+.home-banner h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: rgb(85, 85, 85);
+}
+.home-banner img {
+    max-width: 275px;
+    border-radius: 250px;
+    margin: 1% auto;
+}
+#get-started-bt{
+    margin: 20px auto;
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffb198;
+    opacity: 80%;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+#get-started-bt:hover {
+    opacity: 100%;
+    transition: 1s ease;
+}
+
+p{
+    color: black;
+}
+
+#option{
+   flex: 1 0;
+   text-align: center;
+   margin: 100px;
+    
+}
+.home-description p{
+    margin-bottom: 1rem;
+    margin-top: 0;
+    display: block;
+    
+  
+}
+h3{
+    text-align: center;
+    color: black;
+  
+}
+#options{
+    display: flex;
+    justify-content: space-around;
+    color:black;
+}
