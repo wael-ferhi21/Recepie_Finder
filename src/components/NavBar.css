@@ -26,12 +26,17 @@ header{
   
   
 }
-.link{
+a{
     color: rgb(56, 56, 56);
     text-decoration: none;
+
 }
+
 .link:hover {
     color: rgb(98, 98, 98);
+   
+    border-bottom: 2px solid rgb(255, 159, 135);
+    padding-bottom: 5px;
 }
 .row-links-title{
     display: flex;
