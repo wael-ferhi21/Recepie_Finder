@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/Home.css'
+import "../Home/Home.css"
 import * as Icon from "react-bootstrap-icons";
 function Home() {
   return (

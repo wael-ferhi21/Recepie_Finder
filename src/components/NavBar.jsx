@@ -12,7 +12,7 @@ function NavBar() {
                 </div>
                 <div className='col2'>
                     <nav className='options'>
-                      <NavLink>
+                      <NavLink to='/search'>
                         <a className='link'> Search </a>
                         </NavLink>
                         <NavLink to='/login'>
