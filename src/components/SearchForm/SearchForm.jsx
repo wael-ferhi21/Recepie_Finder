@@ -1,7 +1,7 @@
 import React from 'react'
-import '../components/SearchForm.css'
+import '../SearchForm/SearchForm.css'
 
-function SearchFrom() {
+function SearchForm() {
   return (
     <div className="container-fluid">
     <div className='search-container'>
@@ -41,4 +41,4 @@ function SearchFrom() {
   )
 }
 
-export default SearchFrom
+export default SearchForm
