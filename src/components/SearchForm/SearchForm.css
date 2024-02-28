@@ -51,6 +51,7 @@
 }
 
 
+
 @media screen and (width < 760px) {
     .search-container {
         flex-direction: column;

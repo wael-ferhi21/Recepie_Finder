@@ -1,23 +1,32 @@
 import React from 'react'
-import { Col ,Row} from 'react-bootstrap'
+
+import { useContext } from 'react'
+import { GlobalContext } from '../../context'
+import RecipeItem from '../RecipeItem/RecipeItem'
+import '../SearchResult/SearchResult.css'
 
 function SearchResult() {
+  const { recipeList, loading,searchParam } = useContext(GlobalContext)
+  if (loading) return <div> Loading...Please wait</div>
   return (
     <div className="recipe-results-container">
-    <Row className="recipe-container">
-    <p id="search-req">Showing results for "{result}"</p>
-    </Row>
-    <div>
-    <Col className='recepie-card' lg={5}>
-      <Row className='recepie-title'></Row>
-      <Row className='recepie-img'> 
-      <img src="" alt="" />
-      </Row>
-
-      </Col>
-    </div>
+      <div>
+        <p> Research Results for {searchParam}</p>
       </div>
+      <div className='meals-grid'>
+      {
+        recipeList && recipeList.length > 0 ?
+          recipeList.map(item => <RecipeItem item={item} />)
+          : <div>
+            <p> nothing to show .Please search something </p>
+          </div>
+
+      }
+      </div>
+    </div>
+
   )
 }
+
 
 export default SearchResult

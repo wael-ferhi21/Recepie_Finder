@@ -9,6 +9,8 @@ import Footer from "./components/Footer/Footer";
 
 import { Route,Routes } from 'react-router-dom';
 import SearchForm from './components/SearchForm/SearchForm';
+import SearchResult from './components/SearchResult/SearchResult';
+import RecipeDetail from './components/RecipeDetail/RecipeDetail';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
     <Route path='/' element={<Home/>} />
     <Route path='/signup' element={<SignUp />} />
     <Route path='/search' element={<SearchForm />} />
+    <Route path='/result' element={<SearchResult />} />
+    <Route path='/recipe-item/:id' element={<RecipeDetail />} />
     </Routes>
     <Footer/>
     
