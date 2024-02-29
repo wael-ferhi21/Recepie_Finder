@@ -24,7 +24,7 @@ function App() {
     <Route path='/signup' element={<SignUp />} />
     <Route path='/search' element={<SearchForm />} />
     <Route path='/result' element={<SearchResult />} />
-    <Route path='/recipe-item/:id' element={<RecipeDetail />} />
+    <Route path='/recipe/:id' element={<RecipeDetail />} />
     </Routes>
     <Footer/>
     

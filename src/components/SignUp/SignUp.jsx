@@ -1,6 +1,11 @@
 import React from 'react'
 import '../SignUp/SignUp.css'
 function SignUp() {
+    const [formData, setFormData] = useState({
+		nom: '',
+	    email: '',
+		password: '',
+	  });
   return (
     <div className='container-fluid'>
         <main className='login-container'>

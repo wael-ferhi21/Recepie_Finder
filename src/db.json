@@ -1,0 +1,21 @@
+{
+
+
+    "users":[
+        {
+            "name":"wael",
+            "email":"waelwael@gmail.com",
+            "password":"123456"
+        },
+        {
+            "name":"mohsen",
+            "email":"mohsen@gmail.com",
+            "password":"123456"
+        },
+        {
+            "name":"ahmed",
+            "email":"ahmed@gmail.com",
+            "password":"123456"
+        }
+    ]
+}

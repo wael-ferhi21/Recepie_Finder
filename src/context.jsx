@@ -2,6 +2,7 @@ import { createContext, useState } from "react";
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom'
 
+
 export const GlobalContext = createContext(null);
 export default function GlobalState({ children }) {
     const [searchParam, setSearchParam] = useState('');

@@ -16,7 +16,7 @@ export default function RecipeItem({item}) {
                     <img src={item.image_url} alt={item.image_url} />
                   </Row>
                 </div>
-                <NavLink to={`/recipe-item/${item.id}`} className="detail-link">
+                <NavLink to={`/recipe/${item.id}`} className="detail-link">
                   Recipie Details 
               </NavLink>
             </Col>
