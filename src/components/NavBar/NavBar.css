@@ -26,8 +26,8 @@ header{
   
   
 }
-a{
-    color: rgb(56, 56, 56);
+.link{
+    color: rgb(40, 39, 39);
     text-decoration: none;
 
 }
